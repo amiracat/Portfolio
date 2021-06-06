@@ -10,4 +10,6 @@ Please take a look at her Portfolio to see some highlights of her coding career 
 
 <img width="800" alt="portfolio-middle" src="https://user-images.githubusercontent.com/80497167/120933428-c15bbc80-c6bf-11eb-8d26-d966a2920b18.png">
 
+Here's a link to the portfolio: https://amiracat.github.io/portfolio/
+
 This page is in progress and will be updated as Amira has new projects to highlight.
