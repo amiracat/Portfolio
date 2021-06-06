@@ -1,12 +1,13 @@
-# Welcome to Amira's Portfolio
+# Welcome to Amira Holden's Portfolio
 
-I built this webpage for my coding bootcamp. The assignment was to replicate a sample portfolio page. Our instructor told us to try to make our portfolio page look as close as possible to the sample page. I tried to mimick the color scheme and stylings.
+Amira is a professional with several years of experience in content management and strategy. She's in the middle of a coding bootcamp at the University of Minnesota where she's learning all things full-stack development. 
 
-I spent many hours on this page, and could spend many more to get it closer to the sample page. I've learned a lot.
+So far she's learned HTML, CSS, Javascript, JQuery, APIs, Node.js and more. 
 
-I think I did a pretty good job on the top part of the page. See first screenshot.
+<img width="800" alt="portfolio-top" src="https://user-images.githubusercontent.com/80497167/120933426-bc970880-c6bf-11eb-9f26-c51efb9b6afb.png">
 
-When hovering over the images in the "Work" section, the opacity changes. You can see the opacity change in the 2nd screenshot attached - where the cursor is hovering on the coffee image.
+Please take a look at her Portfolio to see some highlights of her coding career so far, read Amira's biography and find out how to contact Amira via cell, email, GitHub and LinkedIn.
 
-I did not spend enough time on making the page responsive but want to keep learning about that.<img width="1440" alt="Portfolio-screenshot-1" src="https://user-images.githubusercontent.com/80497167/115975928-8ac24c00-a52e-11eb-9176-c6851e562edd.png">
-<img width="1440" alt="Portfolio-screenshot-2" src="https://user-images.githubusercontent.com/80497167/115975934-8f870000-a52e-11eb-93a4-c3135c0c1e19.png">
+<img width="800" alt="portfolio-middle" src="https://user-images.githubusercontent.com/80497167/120933428-c15bbc80-c6bf-11eb-8d26-d966a2920b18.png">
+
+This page is in progress and will be updated as Amira has new projects to highlight.
