@@ -4,12 +4,12 @@ Amira Holden is a professional with several years of experience in content manag
 
 So far she's learned HTML, CSS, Javascript, JQuery, APIs, Node.js, Handlebars.js templating engine and more. 
 
-<img width="800" alt="portfolio-top" src="https://user-images.githubusercontent.com/80497167/120933426-bc970880-c6bf-11eb-9f26-c51efb9b6afb.png">
+<img width="600" alt="portfolio-top-aug" src="https://user-images.githubusercontent.com/80497167/127903085-c298c33c-ee0a-4843-9e75-e460e4fd2ce4.png">
 
 Please take a look at her Portfolio to see some highlights of her coding career so far, read Amira's biography and find out how to contact Amira via cell, email, GitHub and LinkedIn.
 
-<img width="800" alt="portfolio-middle" src="https://user-images.githubusercontent.com/80497167/120933428-c15bbc80-c6bf-11eb-8d26-d966a2920b18.png">
+<img width="600" alt="portfolio-contact-aug" src="https://user-images.githubusercontent.com/80497167/127903095-f4cd70da-7021-42bc-bac8-7c85e920c5b0.png">
 
-Here's a link to the portfolio: https://amiracat.github.io/portfolio/
+Here's a link to the portfolio: https://amiracat.github.io/portfolio-updated/
 
 This page is in progress and will be updated as Amira has new projects to highlight.
