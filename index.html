@@ -1,104 +1,221 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
-  <title>Amira Holden's portfolio</title>
-  <!-- Link to our external CSS -->
-  <link rel="stylesheet" href="./assets/style.css">
-  <!-- link to viewport device width-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Amira Holden's portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style.css">
+
 </head>
 
 <body>
-  <!-- header area with links -->
-  <header class="header">
-    <h1 class="amira">Amira Holden</h1>
-    <nav class="nav-links">
-      <a href="#about" id="bottom-rule">About</a>
-      <a href="#work" id="bottom-rule">Work</a>
-      <a href="#contact" id="bottom-rule">Contact</a>
-    </nav>
-  </header>
-  <!-- top bar with photo and subtitle overlay -->
-  <figure>
-    <img id="noborder" src="./assets/profile-amira.jpg" alt="Amira Holden smiling in front of a fence" />
-    <p id="subtitle">Coder. Content Strategist. Collaborator.</p>
 
-  </figure>
-
-  <main class="page-wrapper">
-
-    <!-- About Me section -->
-    <section class="section1">
-      <h2 id="about">About Me</h2>
-      <div class="right">
-        <p>I am an experienced professional who is passionate about words, technology and accessibility.
-        </p>
-        <p>I am currently in a coding bootcamp through the University of Minnesota to learn full-stack development. I
-          plan to use my coding skills with my editing and content strategy background to make amazing digital products
-          that are strategic and user-friendly to all.
-        </p>
-        <p>I live in Minneapolis near water, trees, parks, people, traffic, airplanes, bunnies and many other amazing
-          things.
-        </p>
-      </div>
-    </section>
-
-    <section class="work">
-      <!-- main work box -->
-      <h2 id="work">Work</h2>
-      <div class="right">
-
-        <figure>
-          <a href="https://amiracat.github.io/what-should-i-watch/" alt="Go to movie and drink recommender tool"><img src="./assets/movie-screengrab.png"
-              alt="screengrab of movie and drink recommender tool" /></a>
-          <div class="boxtext">
-            <h3>Find entertainment</h3>
-            <p>Uses JQuery, Bulma, two APIs</p>
+  <section class="hero is-small p-3 hero-custom">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-body">
+      <header class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item">
+              <div class="container">
+                <p class="title is-size-1 mt-2 fontc has-text-white" id="title">
+                  Amira Holden
+                </p>
+                <p class="subtitle has-text-white">
+                  Coder. Content Strategist. Collaborator.
+                </p>
+              </div>
+            </a>
+            <span class="navbar-burger" data-target="navbarMenuHeroC">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
           </div>
+          <div id="navbarMenuHeroC" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item has-text-white" href="#about">
+                About
+              </a>
+              <a class="navbar-item has-text-white" href="#work">
+                Work
+              </a>
+              <a class="navbar-item has-text-white" href="#skills">
+                Skills
+              </a><a class="navbar-item has-text-white" href="#contact">
+                Contact
+              </a>
 
-        </figure>
-        <!-- first 2 boxes -->
-        <div class="two-by">
-          <div class="image-group margin-right">
-            <a href="https://amiracat.github.io/weather-dashboard/" alt="Go to weather dashboard"><img class="box"
-                src="./assets/weather-screengrab.png" alt="screengrab of weather dashboard page" /></a>
-            <div class="boxtext">
-              <h3>Check the weather</h3>
-              <p>Built using API, localStorage</p>
-            </div>
-          </div>
-          <!-- 2nd box -->
-          <div class="image-group margin-left">
-            <a href="https://amiracat.github.io/work-day-scheduler/" alt="Go to work day scheduler"><img class="box"
-                src="./assets/planner-screengrab.png" alt="screengrab of work day planner page" /></a>
-            <div class="boxtext">
-              <h3>Get planning</h3>
-              <p>Easy, functional day scheduler</p>
             </div>
           </div>
         </div>
+      </header>
+    </div>
+
+  </section>
+  <main class="mx-6">
+    <!-- About section -->
+    <section class="section is-small p-6 m-6">
+      <div class="container">
+        <h2 class="title is-size-2 mb-5 fontc" id="about">About me</h1>
+      </div>
+      <article class="media mt-4 columns is-mobile">
+        <figure class="media-left">
+          <p class="image is-128x128">
+            <img src="./assets/amira-square.jpg" alt="Amira Holden smiling in red shirt">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>I am passionate about words, technology and accessibility.
+            </p>
+            <p>My background is in front-end applications and content management. I am enrolled in a Coding Bootcamp
+              through the University of Minnesota to expand my skills to include front-end and back-end development.</p>
+            <p>I plan to use my coding skills and editing and content strategy background
+              to make amazing digital products that are strategic and user-friendly to all.
+            </p>
+            <p>
+              I live in Minneapolis with my family near water, trees, parks, people, traffic, airplanes,
+              bunnies and many
+              other amazing things.
+            </p>
+          </div>
+
+        </div>
+
+      </article>
+
+    </section>
+    <!-- Work section -->
+    <section class="section is-small p-6 m-6">
+      <div class="container">
+        <h2 class="title is-size-2 mb-5 fontc" id="work">Work</h1>
+      </div>
+      <div class="columns">
+        <!-- project 1 -->
+        <div class="column">
+          <article class="media mt-4 is-block mb-2">
+            <figure class="media-left mb-2">
+              <p class="image opac b-1">
+                <img src="/assets/triv-game-800x550.png" alt="Trivia Olympics game homepage">
+              </p>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <p class="is-size-5 fontc amira"><a href="https://young-harbor-83683.herokuapp.com/"><b>Trivialympics
+                      online
+                      game</b></a><br>
+                  <div class="is-size-6 fontc">Uses MySQL, Express, Node, Handlebars, Green Sock animation deployed on
+                    Heroku
+                </p>
+              </div>
+
+            </div>
+
+          </article>
+        </div>
+        <!-- project 2 -->
+        <div class="column">
+          <article class="media mt-4 is-block mb-2">
+            <figure class="media-left mb-2">
+              <p class="image opac">
+                <img src="/assets/movie-800x550.png">
+              </p>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <p class="is-size-5 fontc amira"><a href="https://amiracat.github.io/what-should-i-watch/"><b>What
+                      Should I Watch?</b></a><br>
+                  <div class="is-size-6 fontc">Movie and drink recommender built with JQuery, Bulma and two APIs
+                </p>
+              </div>
+
+            </div>
+          </article>
+        </div>
+        <!-- project 3 -->
+        <div class="column">
+          <article class="media mt-4 is-block mb-2">
+            <figure class="media-left mb-2">
+              <p class="image opac">
+                <img src="/assets/weather-800x550.png">
+              </p>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <p class="is-size-5 fontc amira"><a href="https://amiracat.github.io/what-should-i-watch/"><b>Weather
+                      dashboard app</b></a><br>
+                  <div class="is-size-6 fontc">Check the forecast, built using API, localStorage
+                </p>
+              </div>
+
+            </div>
+          </article>
+        </div>
+
+      </div>
+
 
     </section>
 
-  </main>
-  <!-- footer uses section tag -->
-  <footer class="page-wrapper">
-    <section>
-      <h2 id="contact">Contact Me</h2>
-      <div class="right" id="contactme">
-        <p><a id="contact-border" href="tel:612-221-2185" title="call or text Amira at 612-221-2185">612-221-2185</a>
-        </p>
-        <p><a id="contact-border" href="mailto:amiraholden@gmail.com"
-            title="Send email to Amira">amiraholden@gmail.com</a></p>
-        <p><a id="contact-border" href="https://github.com/amiracat" title="Amira's GitHub page">GitHub</a></p>
-        <p><a id="contact-border" href="https://www.linkedin.com/in/amiraholden/"
-            title="Connect with Amira on LinkedIn">LinkedIn</a></p>
-        <!--<p><a id="contact-border" href="https://open.spotify.com/user/amiraholden" title="Go to Spotify">Spotify</a></p> -->
+
+    <!-- Skills section -->
+    <section class="section is-small p-6 m-6">
+      <div class="container">
+        <h2 class="title is-size-2 mb-5 fontc" id="contact">Skills</h1>
+      </div>
+      <div class="right columns" id="skills">
+        <div class="column">
+          <p>HTML<br>
+            CSS, Bootstrap, Bulma<br>
+            JavaScript<br>
+            JQuery<br>
+            Node.js</p>
+        </div>
+        <div class="column">
+          <p>Front-end development<br>
+            Express.js<br>
+            Debugging<br>
+            UI/UX<br>
+            AEM, WordPress
+          </p>
+        </div>
+        <div class="column">
+          <p>GitHub<br>
+            Heroku<br>
+            Handlebars.js<br>
+            Agile methodology</p>
+        </div>
       </div>
     </section>
+    <!-- Contact section -->
+    <section class="section is-small p-6 m-6">
+      <div class="container">
+        <h2 class="title is-size-2 mb-5 fontc" id="contact">Contact me</h1>
+      </div>
+      <div class="right is-flex is-justify-content-space-between" id="contactme">
+        <p><a id="contact-border" href="tel:612-221-2185" title="call Amira at 612-221-2185"><button
+              class="button is-link is-rounded is-outlined">612-221-2185</button></a>
+        </p>
+        <p><a id="contact-border" href="mailto:amiraholden@gmail.com" title="Send email to Amira"><button
+              class="button is-link is-rounded is-outlined">amiraholden@gmail.com</button></a></p>
+        <p><a id="contact-border" href="https://github.com/amiracat" title="Amira's GitHub page"><button
+              class="button is-link is-rounded is-outlined">GitHub</button></a></p>
+        <p><a id="contact-border" href="https://www.linkedin.com/in/amiraholden/"
+            title="Connect with Amira on LinkedIn"><button
+              class="button is-link is-rounded is-outlined">LinkedIn</button></a></p>
 
-  </footer>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
