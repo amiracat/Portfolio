@@ -36,6 +36,11 @@ article :hover {
 
 section {
   border-style: double none none none;
+  margin: 0 20px;
+}
+
+#no-border {
+  border-style: none;
 }
 
 /* .amira {
@@ -49,3 +54,39 @@ section {
   background-color: rgb(43, 50, 88);
   opacity: .9;
 } */
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  * {
+    max-width: 100%;
+  }
+  ;
+  .section {
+    width: 100%;
+    margin: 10px 0px 20px 0;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid none none none;
+    background-color: greenyellow;
+  }
+  ;
+
+  .media-left {
+    display: block;
+    
+  }
+  .opac {
+    margin: 1px;
+  }
+  ;
+  #mobile {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+  ;
+
+  .mx-6 {
+    margin: 0rem!important;
+  }
+}
