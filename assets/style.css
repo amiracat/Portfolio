@@ -21,6 +21,20 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
+.aboutme {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bio {
+  flex-grow: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+
+
+
 article :hover {
   opacity: 1;
 }
@@ -43,6 +57,15 @@ section {
   border-style: none;
 }
 
+#profile {
+  padding-right: 20px;
+}
+
+.line {
+  margin-bottom: 12px;
+  
+}
+
 /* .amira {
   background-color: rgb(43, 50, 88);
   color: white;
@@ -55,12 +78,8 @@ section {
   opacity: .9;
 } */
 
-@media only screen and (max-width: 600px) {
-  /* For mobile phones: */
-  * {
-    max-width: 100%;
-  }
-  ;
+@media only screen and (max-width: 768px) {
+
   .section {
     width: 100%;
     margin: 10px 0px 20px 0;
@@ -68,25 +87,21 @@ section {
     display: flex;
     flex-wrap: wrap;
     border: solid none none none;
-    background-color: greenyellow;
   }
-  ;
 
-  .media-left {
+  .skills {
+    margin: 0 20px;
     display: block;
-    
   }
-  .opac {
-    margin: 1px;
-  }
-  ;
-  #mobile {
+  
+
+  #contactme {
     margin-left: 0.25rem;
     margin-right: 0.25rem;
+    display: flex;
+   
   }
-  ;
 
-  .mx-6 {
-    margin: 0rem!important;
-  }
+  
+ 
 }
