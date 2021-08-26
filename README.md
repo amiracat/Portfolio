@@ -1,8 +1,8 @@
 # Welcome to Amira Holden's Portfolio
 
-Amira Holden is a professional with several years of experience in content management and strategy. She's in the middle of a coding bootcamp at the University of Minnesota where she's learning all things full-stack development. 
+Amira Holden is a professional with several years of experience in content management and strategy. She's earning a Full Stack Web Development certificate in a coding bootcamp at the University of Minnesota. Graduating October 2021.
 
-So far she's learned HTML, CSS, JavaScript, JQuery, APIs, Node.js, Express, Handlebars.js templating engine and more. 
+So far she's learned HTML, CSS, JavaScript, JQuery, React, APIs, Node.js, Express, Handlebars.js templating engine and more. 
 
 <img width="600" alt="portfolio-top-aug" src="https://user-images.githubusercontent.com/80497167/127903085-c298c33c-ee0a-4843-9e75-e460e4fd2ce4.png">
 
